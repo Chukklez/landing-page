@@ -1,27 +1,55 @@
-.navbar {
-background-color: blue;}
+/* COLORS AND FONT STYLES*/
 
-.link-container {
-   background-color: green;
+/* Dark background color (hero and footer) */
+/* background-color: #1F2937; */
+
+/* Hero Main Text ("this website is awsome") */
+/* fontsize: 48px */
+
+
+/* CLASSES */
+/* 
+.navbar, .footer {
+    background-color: #1F2937;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #1F2937;
+  color: #F9FAF8; 
+
+  /* background-color: blue; */
+}
+
+.navbar ul {
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    /* background-color: green; */
 }
 
 .section-one {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .section-two {
-    background-color: red;
+  background-color: red;
 }
 
 .section-three {
-    background-color: sienna;
+  background-color: sienna;
 }
 
 .section-four {
-    background-color: purple;
+  background-color: purple;
 }
 
 .footer {
-    background-color: pink;
+  background-color: pink;
 }
-
