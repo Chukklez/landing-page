@@ -5,10 +5,31 @@
 
 /* Hero Main Text ("this website is awsome") */
 /* fontsize: 48px */
+/* font-weight: extra-bold; */
+/* color: #F9FAF8 */
 
+/* Hero secondary text, header link text */
+/* font-size: 18px; */
+/* color: #E5E7EB */
+
+/* Button color, call to action Background color */
+/* color: #3882F6 */
+
+/* Information header text */
+/* font-size:36px;
+font-weight: extra-bold;
+color: #1F2937 */
+
+/* Quote section background color */
+/* color:#E5E7EB */
+
+/* Quote text */
+/* font-size:36px; */
+/* font-style: italic; */
+/* color:#1F2937 */
 
 /* CLASSES */
-/* 
+/*
 .navbar, .footer {
     background-color: #1F2937;
 } */
@@ -20,7 +41,7 @@
   font-size: 24px;
   font-weight: bold;
   background-color: #1F2937;
-  color: #F9FAF8; 
+  color: #F9FAF8;
 
   /* background-color: blue; */
 }
