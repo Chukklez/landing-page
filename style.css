@@ -13,7 +13,7 @@
 /* color: #E5E7EB */
 
 /* Button color, call to action Background color */
-/* color: #3882F6 */
+/* background-color: #3882F6 */
 
 /* Information header text */
 /* font-size:36px;
@@ -21,7 +21,7 @@ font-weight: extra-bold;
 color: #1F2937 */
 
 /* Quote section background color */
-/* color:#E5E7EB */
+/* background-color:#E5E7EB */
 
 /* Quote text */
 /* font-size:36px; */
@@ -34,30 +34,85 @@ color: #1F2937 */
     background-color: #1F2937;
 } */
 
+/* h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* NAVBAR */
+
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 24px;
   font-weight: bold;
-  background-color: #1F2937;
-  color: #F9FAF8;
-
-  /* background-color: blue; */
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
 .navbar ul {
-    display: flex;
-    gap: 8px;
-    font-size: 18px;
-    color: #E5E7EB;
-    list-style: none;
-    /* background-color: green; */
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+  color: #e5e7eb;
+  list-style: none;
 }
 
+/* SECTION ONE */
+
 .section-one {
-  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px;
+  background-color: #1F2937;
+
 }
+
+.container-one {
+    /* display: flex; */
+    justify-content: flex-start;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.container-one h1, p {
+    color: #f9faf8;
+}
+
+.container-one h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+.placeholder-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #f9faf8;
+    font-size: 18px;
+    background-color:#b4b5b6;
+}
+
+.button-one {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: #3882F6;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 120px;
+    border: none;
+}
+
 
 .section-two {
   background-color: red;
