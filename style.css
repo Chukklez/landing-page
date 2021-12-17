@@ -44,6 +44,12 @@ p {
     padding: 0px;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+* {
+  font-family: 'Rokkit', sans-serif;
+}
+
 /* SPACING ON THE SIDES FOR CENTERING CONTENT */
 .space-nav, .space1, .space2, .space3, -space4, .space-footer {
   flex-shrink: 0;
@@ -72,11 +78,6 @@ p {
   font-size: 18px;
   color: #e5e7eb;
   list-style: none;
-}
-
-/* SPACE CREATED TO CENTER THE CONTENT */
-.space-nav{
-  flex-shrink: 0;
 }
 
 /* SECTION ONE */
@@ -137,15 +138,12 @@ p {
   border: none;
 }
 
-.space1 {
-  flex-shrink: 0;
-  width: 10em;
-}
 
 
 /* SECTION TWO */
 
 .section-two {
+  width: 99.15vw;
   text-align: center;
   background-color: White;
 }
@@ -167,18 +165,24 @@ p {
   width: 150px;
   height: 150px;
   border: solid blue 2px;
+  border-radius: 1em;
+}
+
+.box img {
+  border-radius: 1em;
 }
 
 .txt-container {
   display: flex;
   justify-content: center;
-  gap: 5em;
+  gap: 5.4em;
 }
 
 .txt {
   display: flex;
   width: 150px;
   height: 150px;
+  padding-top: 1em;
 }
 
 .space2 {
