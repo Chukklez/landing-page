@@ -48,14 +48,17 @@ p {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 99.15vw;
   font-size: 24px;
   font-weight: bold;
   background-color: #1f2937;
   color: #f9faf8;
 }
 
+
+/* STYLING AND SEPARATING THE LINKS */
 .navbar ul {
   display: flex;
   gap: 8px;
@@ -64,17 +67,27 @@ p {
   list-style: none;
 }
 
+/* SPACE CREATED TO CENTER THE CONTENT */
+.space1{
+  flex-shrink: 0;
+}
+
 /* SECTION ONE */
+
 
 .section-one {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 99.15vw;
   padding: 100px 0px;
   background-color: #1f2937;
 }
 
+/* CONTAINER WITH THE "AWESOME" TEXT */
+
 .container-one {
   display: flex;
+  width: 35rem;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -89,6 +102,8 @@ p {
   font-weight: 900;
 }
 
+/* THE SECOND "CONTAINER" WITH THE IMAGE  */
+
 .placeholder-img {
   display: flex;
   justify-content: center;
@@ -98,6 +113,9 @@ p {
   font-size: 18px;
   background-color: #b4b5b6;
 }
+
+
+/* SIGN UP BUTTON STYLING */
 
 .button-one {
   color: #f9faf8;
@@ -110,6 +128,12 @@ p {
   width: 120px;
   border: none;
 }
+
+/* SECTION TWO */
+.space2 {
+  flex-shrink: 0;
+}
+
 
 .section-two {
   background-color: red;
