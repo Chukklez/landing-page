@@ -51,7 +51,7 @@ p {
 }
 
 /* SPACING ON THE SIDES FOR CENTERING CONTENT */
-.space-nav, .space1, .space2, .space3, -space4, .space-footer {
+.space-nav, .space1, .space2, .space3, .space4, .space-footer {
   flex-shrink: 0;
   width: 10em;
 }
@@ -70,11 +70,21 @@ p {
   color: #f9faf8;
 }
 
+/* SPECIFIC SPACE-NAV WIDTH TO CENTER THE NAVBAR CONTENT */
+.space-nav {
+  width: 14em;
+}
+
+/* PUSHING THE LINKS ALL THE WAY TO THE RIGHT AND THE THE HEADER LOGO ALL THE WAY TO THE LEFT */
+
+.link-container {
+  margin-left: auto;
+}
 
 /* STYLING AND SEPARATING THE LINKS */
 .navbar ul {
   display: flex;
-  gap: 8px;
+  gap: 3em;
   font-size: 18px;
   color: #e5e7eb;
   list-style: none;
@@ -154,6 +164,8 @@ p {
   color: #1f2937;
 }
 
+
+/* STYLING OF THE IMAGES AND BOXES */
 .box-container {
   display: flex;
   justify-content: center;
@@ -172,6 +184,8 @@ p {
   border-radius: 1em;
 }
 
+/* STYLING OF THE TEXT AND IT'S CONTAINER */
+
 .txt-container {
   display: flex;
   justify-content: center;
@@ -185,13 +199,34 @@ p {
   padding-top: 1em;
 }
 
-.space2 {
-  flex-shrink: 0;
-}
+/* SECTION THREE */
 
 
 .section-three {
-  background-color: sienna;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+  width: 99.15vw;
+}
+
+.quote {
+font-size:36px;
+font-weight: 200;
+font-style: italic;
+color:#1F2937;
+width: 20em;
+padding-top: 3.5em;
+padding-bottom: 0.5em;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 3em;
 }
 
 .section-four {
