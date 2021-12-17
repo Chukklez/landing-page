@@ -50,6 +50,7 @@ p {
   font-family: 'Rokkit', sans-serif;
 }
 
+
 /* SPACING ON THE SIDES FOR CENTERING CONTENT */
 .space-nav, .space1, .space2, .space3, .space4, .space-footer {
   flex-shrink: 0;
@@ -63,7 +64,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 99.15vw;
+  width: 98.5vw;
   font-size: 24px;
   font-weight: bold;
   background-color: #1f2937;
@@ -96,7 +97,7 @@ p {
 .section-one {
   display: flex;
   justify-content: center;
-  width: 99.15vw;
+  width: 98.5vw;
   padding: 100px 0px;
   background-color: #1f2937;
 }
@@ -153,7 +154,7 @@ p {
 /* SECTION TWO */
 
 .section-two {
-  width: 99.15vw;
+  width: 98.5vw;
   text-align: center;
   background-color: White;
 }
@@ -208,7 +209,7 @@ p {
   align-content: center;
   flex-wrap: wrap;
   background-color: #e5e7eb;
-  width: 99.15vw;
+  width: 98.5vw;
 }
 
 .quote {
@@ -230,9 +231,42 @@ padding-bottom: 0.5em;
 }
 
 .section-four {
-  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18em;
+  width: 98.5vw;
+  background-color: white;
+  color: #f9faf8;
+}
+
+.container-four {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 65em;
+  height: 8em;
+  border-radius: 0.5em;
+  background-color: #3882f6;
+}
+
+.call2a {
+  margin: 0em;
+}
+
+.button-two {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 15px;
+  background-color: #3882f6;
+  padding: 8px;
+  border-radius: 10px;
+  width: 120px;
+  border: solid #f9faf8 0.2em;
 }
 
 .footer {
+  width: 98.5vw;
   background-color: pink;
 }
