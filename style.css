@@ -267,6 +267,16 @@ padding-bottom: 0.5em;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 98.5vw;
-  background-color: pink;
+  height: 7em;
+  background-color: #1f2937;
+}
+
+.copy {
+  color: #f9faf8;
+  font-size: 1.2em;
+  font-weight: 700;
 }
