@@ -44,6 +44,13 @@ p {
     padding: 0px;
 } */
 
+/* SPACING ON THE SIDES FOR CENTERING CONTENT */
+.space-nav, .space1, .space2, .space3, -space4, .space-footer {
+  flex-shrink: 0;
+  width: 10em;
+}
+
+
 /* NAVBAR */
 
 .navbar {
@@ -68,7 +75,7 @@ p {
 }
 
 /* SPACE CREATED TO CENTER THE CONTENT */
-.space1{
+.space-nav{
   flex-shrink: 0;
 }
 
@@ -77,7 +84,7 @@ p {
 
 .section-one {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 99.15vw;
   padding: 100px 0px;
   background-color: #1f2937;
@@ -106,6 +113,7 @@ p {
 
 .placeholder-img {
   display: flex;
+  flex: 0.5;
   justify-content: center;
   align-items: center;
   justify-self: flex-start;
@@ -129,15 +137,54 @@ p {
   border: none;
 }
 
+.space1 {
+  flex-shrink: 0;
+  width: 10em;
+}
+
+
 /* SECTION TWO */
+
+.section-two {
+  text-align: center;
+  background-color: White;
+}
+
+.section-two h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
+.box {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: solid blue 2px;
+}
+
+.txt-container {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
+.txt {
+  display: flex;
+  width: 150px;
+  height: 150px;
+}
+
 .space2 {
   flex-shrink: 0;
 }
 
-
-.section-two {
-  background-color: red;
-}
 
 .section-three {
   background-color: sienna;
